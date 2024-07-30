@@ -13,7 +13,7 @@ const char * genMove(){
     case 1:
       return "Paper";
     case 2: 
-      return "Scissors;
+      return "Scissors";
     default:
       return "ERROR;
 }
