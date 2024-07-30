@@ -24,3 +24,9 @@ void victory(){
 void loss(){
   printf("You lost, better luck next time!");
 }
+void tie(){
+  printf("Great minds think alike, TIE!");
+}
+void error(){
+  printf("ERROR: Unexpected Error");
+}
