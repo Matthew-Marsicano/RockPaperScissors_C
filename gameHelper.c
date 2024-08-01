@@ -4,18 +4,22 @@
 #include <time.h>
 #include <stdlib.h>
 
-const char * genMove(){
+const char *  genMove(){
   srand(time(NULL));
   int r = rand() % 3;
-  switch(r):
+  switch(r){
     case 0:
       return "Rock";
+      break;
     case 1:
       return "Paper";
+      break;
     case 2: 
       return "Scissors";
+      break;
     default:
-      return "ERROR;
+      return "ERROR";
+      }
 }
 
 void victory(){
