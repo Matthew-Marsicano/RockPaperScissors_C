@@ -24,7 +24,7 @@ void main(){
   char  playerMove[] = "Paper";
   printf("Enter your move (Rock, Paper, or Scissors):");
   scanf("%s", playerMove);
-  switch(keyfromstring(*genMove())){
+  switch(keyfromstring(genMove())){
     case 1:
       if (playerMove == "Paper"){
       victory();
