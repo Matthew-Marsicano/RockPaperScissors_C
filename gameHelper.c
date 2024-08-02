@@ -23,14 +23,14 @@ const char *  genMove(){
 }
 
 void victory(){
-  printf("Congrats you won!!");
+  printf("Congrats you won!!\n");
 }
 void loss(){
-  printf("You lost, better luck next time!");
+  printf("You lost, better luck next time!\n");
 }
 void tie(){
-  printf("Great minds think alike, TIE!");
+  printf("Great minds think alike, TIE\n");
 }
 void error(){
-  printf("ERROR: Unexpected Error");
+  printf("ERROR: Unexpected Error\n");
 }
